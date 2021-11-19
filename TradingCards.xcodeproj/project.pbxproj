@@ -12,6 +12,13 @@
 		EA81F3D927396CE600240CC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA81F3D827396CE600240CC7 /* Preview Assets.xcassets */; };
 		EA81F3E127396DB100240CC7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA81F3E027396DB100240CC7 /* DetailView.swift */; };
 		EAC8CC4D27396FA700CB5089 /* AvalanchePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC8CC4C27396FA700CB5089 /* AvalanchePlayer.swift */; };
+		EAD2DE97273C56F400C879CC /* MikkoRantanenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DE96273C56F400C879CC /* MikkoRantanenView.swift */; };
+		EAD2DE99273C572300C879CC /* NathanMacKinnonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DE98273C572300C879CC /* NathanMacKinnonView.swift */; };
+		EAD2DE9B273C574400C879CC /* GabrielLandeskogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DE9A273C574400C879CC /* GabrielLandeskogView.swift */; };
+		EAD2DE9D273C576D00C879CC /* SamuelGirardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DE9C273C576D00C879CC /* SamuelGirardView.swift */; };
+		EAD2DE9F273C578F00C879CC /* KurtisMacDermidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DE9E273C578F00C879CC /* KurtisMacDermidView.swift */; };
+		EAD2DEA1273C57C400C879CC /* DarcyKuemperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DEA0273C57C400C879CC /* DarcyKuemperView.swift */; };
+		EAD2DEA3273C5A7D00C879CC /* TradeingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD2DEA2273C5A7D00C879CC /* TradeingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,13 @@
 		EA81F3D827396CE600240CC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA81F3E027396DB100240CC7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		EAC8CC4C27396FA700CB5089 /* AvalanchePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalanchePlayer.swift; sourceTree = "<group>"; };
+		EAD2DE96273C56F400C879CC /* MikkoRantanenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikkoRantanenView.swift; sourceTree = "<group>"; };
+		EAD2DE98273C572300C879CC /* NathanMacKinnonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NathanMacKinnonView.swift; sourceTree = "<group>"; };
+		EAD2DE9A273C574400C879CC /* GabrielLandeskogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GabrielLandeskogView.swift; sourceTree = "<group>"; };
+		EAD2DE9C273C576D00C879CC /* SamuelGirardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamuelGirardView.swift; sourceTree = "<group>"; };
+		EAD2DE9E273C578F00C879CC /* KurtisMacDermidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurtisMacDermidView.swift; sourceTree = "<group>"; };
+		EAD2DEA0273C57C400C879CC /* DarcyKuemperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarcyKuemperView.swift; sourceTree = "<group>"; };
+		EAD2DEA2273C5A7D00C879CC /* TradeingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				EA81F3E027396DB100240CC7 /* DetailView.swift */,
+				EAD2DE95273C56C000C879CC /* Players */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,6 +99,20 @@
 				EAC8CC4C27396FA700CB5089 /* AvalanchePlayer.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EAD2DE95273C56C000C879CC /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				EAD2DEA2273C5A7D00C879CC /* TradeingCardView.swift */,
+				EAD2DE98273C572300C879CC /* NathanMacKinnonView.swift */,
+				EAD2DE96273C56F400C879CC /* MikkoRantanenView.swift */,
+				EAD2DE9A273C574400C879CC /* GabrielLandeskogView.swift */,
+				EAD2DE9C273C576D00C879CC /* SamuelGirardView.swift */,
+				EAD2DE9E273C578F00C879CC /* KurtisMacDermidView.swift */,
+				EAD2DEA0273C57C400C879CC /* DarcyKuemperView.swift */,
+			);
+			path = Players;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD2DEA3273C5A7D00C879CC /* TradeingCardView.swift in Sources */,
+				EAD2DE9B273C574400C879CC /* GabrielLandeskogView.swift in Sources */,
+				EAD2DE9F273C578F00C879CC /* KurtisMacDermidView.swift in Sources */,
 				EA81F3D227396CE000240CC7 /* TradingCardsApp.swift in Sources */,
 				EAC8CC4D27396FA700CB5089 /* AvalanchePlayer.swift in Sources */,
+				EAD2DE99273C572300C879CC /* NathanMacKinnonView.swift in Sources */,
 				EA81F3E127396DB100240CC7 /* DetailView.swift in Sources */,
+				EAD2DE97273C56F400C879CC /* MikkoRantanenView.swift in Sources */,
+				EAD2DE9D273C576D00C879CC /* SamuelGirardView.swift in Sources */,
+				EAD2DEA1273C57C400C879CC /* DarcyKuemperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

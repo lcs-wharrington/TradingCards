@@ -10,17 +10,37 @@ import SwiftUI
 struct DetailView: View {
     
     let players: AvalanchePlayer
-    
+
+    //MARK: Computed Propertys
     var body: some View {
-        ScrollView{
-            Text("hello world")
+        VStack (spacing: 10){
+        
+            //Display Image
+            Image(imageName)
+                .resizable()
+                .scaledToFit()
+            
+            VStack(alignment:.leading){
+            
+                //Display Name
+                Text(name)
+                    .font(.title)
+                
+                //Display Position
+                Text(position)
+                    .font(.caption)
+                
+                //Display Career Goals
+                Text(careerGoals)
+                    .font(.caption)
+                
+            }
         }
-        .navigationTitle(players.name)
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(players: players.last!)
+        DetailView(players: players.first!)
     }
 }

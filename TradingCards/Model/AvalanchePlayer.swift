@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct AvalanchePlayer: Identifiable {
     
+    //MARK: Properties
     let id = UUID()
     let name: String
     let imageName: String
