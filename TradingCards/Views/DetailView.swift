@@ -9,29 +9,29 @@ import SwiftUI
 
 struct DetailView: View {
     
-    let players: AvalanchePlayer
+    let player: AvalanchePlayer
 
     //MARK: Computed Propertys
     var body: some View {
         VStack (spacing: 10){
         
             //Display Image
-            Image(imageName)
+            Image(player.imageName)
                 .resizable()
                 .scaledToFit()
             
             VStack(alignment:.leading){
             
                 //Display Name
-                Text(name)
+                Text(player.name)
                     .font(.title)
                 
                 //Display Position
-                Text(position)
+                Text(player.position)
                     .font(.caption)
                 
                 //Display Career Goals
-                Text(careerGoals)
+                Text(player.careerGoals)
                     .font(.caption)
                 
             }
@@ -41,6 +41,6 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(players: players.first!)
+        DetailView(player: players.first!)
     }
 }
